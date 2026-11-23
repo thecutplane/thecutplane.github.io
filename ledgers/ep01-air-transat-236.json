@@ -1,0 +1,2809 @@
+{
+  "episode": "EP01: Air Transat 236, the wrong part",
+  "sources": [
+    {
+      "id": "GPIAA",
+      "title": "Accident Investigation Final Report 22/ACCID/2001 (GPIAA), Air Transat A330-243 C-GITS (full 103-page report)",
+      "url": "https://www.faa.gov/sites/faa.gov/files/2022-11/AirTransat236_AccidentReport.pdf",
+      "kind": "primary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "FAA-LL",
+      "title": "FAA Lessons Learned: Airbus A330-243 TSC236",
+      "url": "https://faa.gov/lessons_learned/transport_airplane/accidents/C-GITS",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "FSF-AMB",
+      "title": "Fluid Line Mismatch Leads to Fuel Exhaustion, Aviation Mechanics Bulletin Sep-Oct 2005",
+      "url": "https://flightsafety.org/amb/amb_sept-oct05.pdf",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "CODE7700",
+      "title": "Case study: Air Transat 236",
+      "url": "https://code7700.com/case_study_air_transat_236.htm",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "ASN",
+      "title": "ASN wikibase 323244 C-GITS",
+      "url": "https://aviation-safety.net/wikibase/323244",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "SKYBRARY",
+      "title": "SKYbrary A332 en-route North Atlantic Ocean 2001",
+      "url": "https://skybrary.aero/accidents-and-incidents/a332-en-route-north-atlantic-ocean-2001",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "AOPA",
+      "title": "Dead-stick night landing, AOPA Pilot Nov 2005",
+      "url": "https://www.aopa.org/news-and-media/all-news/2005/november/pilot/dead-stick-night-landing",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "LADKIN",
+      "title": "The Azores Glider (Ladkin)",
+      "url": "https://rvs-bi.de/publications/compendium/incidents_and_accidents/Ladkin-AirTransat.pdf",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "TRANSAT",
+      "title": "Emergency landing of Air Transat Flight TS 236 (Transat A.T.)",
+      "url": "https://www.transat.com/getmedia/583479f2-7f91-425a-b0c0-601c0fc11409/Emergency-landing-of-Air-Transat-Flight-TS-236-on-August-24,-2001.pdf.aspx",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "AVWEB",
+      "title": "But They Saved The Airplane (AVweb, 2004-10-20)",
+      "url": "https://avweb.com/leadnews/but-they-saved-the-airplane/",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "AIN",
+      "title": "Air Transat fined in wake of A330 gliding incident (AIN)",
+      "url": "https://ainonline.com/aviation-news/2007-11-14/air-transat-fined-wake-a330-gliding-incidentq",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "PPRUNE-GM",
+      "title": "PPRuNe repost of Globe and Mail: Mechanic warned Air Transat (2001-09-03)",
+      "url": "https://www.pprune.org/48613-post1.html",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "FLYINGMAG",
+      "title": "Flying Magazine: It must be",
+      "url": "https://www.flyingmag.com/it-must-be/",
+      "kind": "secondary",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "WIKI",
+      "title": "Wikipedia: Air Transat Flight 236",
+      "url": "https://en.wikipedia.org/wiki/Air_Transat_Flight_236",
+      "kind": "reference",
+      "opened": "2026-11-22"
+    },
+    {
+      "id": "FAA-AD",
+      "title": "FAA AD 2006-02-01, Airbus A330/A340 AFM fuel leak procedures",
+      "url": "https://www.faa.gov/sites/faa.gov/files/2022-11/AD2006-02-01.pdf",
+      "kind": "primary",
+      "opened": "2026-11-22"
+    }
+  ],
+  "claims": [
+    {
+      "id": "hook:c66fe936",
+      "seg": "hook",
+      "text": "This airliner is over the Atlantic at night, with three hundred and six people on board.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.7: 13 crew + 293 passengers = 306."
+    },
+    {
+      "id": "hook:1a2a8b4f",
+      "seg": "hook",
+      "text": "In less than two hours, it will have no fuel left.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "Leak 04:38 to 2nd flameout 06:26 = 1 h 48 min (GPIAA pp.7-8)."
+    },
+    {
+      "id": "hook2:3ea97060",
+      "seg": "hook2",
+      "text": "Not a drop.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "hook2:c85ef062",
+      "seg": "hook2",
+      "text": "And it started with one part from a different version of the same engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.10-11: post-SB C625 fuel tube on pre-SB engine; same Trent 772B."
+    },
+    {
+      "id": "date:59e87c8c",
+      "seg": "date",
+      "text": "August twenty-fourth, two thousand one.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "ASN"
+      ],
+      "note": "Date in UTC. Local departure time in Toronto was the evening of 23 Aug (00:52 UTC)."
+    },
+    {
+      "id": "date:9d5f5621",
+      "seg": "date",
+      "text": "Air Transat Flight two thirty-six, an Airbus A330, leaves Toronto for Lisbon.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.7: TSC236, A330-243, CYYZ to LPPT."
+    },
+    {
+      "id": "aboard:24a3e550",
+      "seg": "aboard",
+      "text": "Two hundred ninety-three passengers.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.7."
+    },
+    {
+      "id": "aboard:037a506f",
+      "seg": "aboard",
+      "text": "Thirteen crew.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.7. Reclassified from framing (number)."
+    },
+    {
+      "id": "aboard:e91eebbc",
+      "seg": "aboard",
+      "text": "Nearly forty-seven metric tons of fuel.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.7: 46.9 t at takeoff (47.9 t planned)."
+    },
+    {
+      "id": "swap:8bb6ff56",
+      "seg": "swap",
+      "text": "Plenty for the trip.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.7: plan had 5.5 t above regulatory minimum (Wikipedia's 4.5 t is wrong). Reclassified from framing."
+    },
+    {
+      "id": "swap:a46fdf69",
+      "seg": "swap",
+      "text": "But about a week earlier, mechanics had swapped the right engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.10: change began midnight 17 Aug, ended Sun 19 Aug 17:30; flight 24 Aug UTC (5-7 days). Reclassified from framing."
+    },
+    {
+      "id": "swap:72940f14",
+      "seg": "swap",
+      "text": "And something in that swap didn't quite line up.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "cutopen:e790e477",
+      "seg": "cutopen",
+      "text": "So how does a full airliner run dry over the ocean?",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "cutopen:78d96a11",
+      "seg": "cutopen",
+      "text": "Let's cut it open.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "tanks:dbbfe042",
+      "seg": "tanks",
+      "text": "Start with where the fuel lives.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "tanks:341caffc",
+      "seg": "tanks",
+      "text": "Each wing has tanks.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.18. Reclassified."
+    },
+    {
+      "id": "tanks:b892999e",
+      "seg": "tanks",
+      "text": "There's a center tank.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.18. Reclassified."
+    },
+    {
+      "id": "tanks:1115211d",
+      "seg": "tanks",
+      "text": "And one more, in the tail, called the trim tank.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.18-19: trim tank in the trimmable horizontal stabilizer."
+    },
+    {
+      "id": "feeds:c7e48baa",
+      "seg": "feeds",
+      "text": "Each wing feeds its own engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.18: each inner tank feeds its respective engine. Reclassified."
+    },
+    {
+      "id": "feeds:e6a0a10b",
+      "seg": "feeds",
+      "text": "Left tank, left engine.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "feeds:8777a349",
+      "seg": "feeds",
+      "text": "Right tank, right engine.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "xvalve:0d870dea",
+      "seg": "xvalve",
+      "text": "In between sits a valve called the crossfeed.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.19-20. Reclassified."
+    },
+    {
+      "id": "xvalve:8ebfa94e",
+      "seg": "xvalve",
+      "text": "It's normally closed.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.20. Reclassified."
+    },
+    {
+      "id": "xvalve:6af7f43a",
+      "seg": "xvalve",
+      "text": "Open it, and one side can feed the other.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.19-20."
+    },
+    {
+      "id": "xjob:09c48ac6",
+      "seg": "xjob",
+      "text": "Its job is simple: fix an imbalance.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.19: primary purpose is to correct fuel imbalance. Reclassified."
+    },
+    {
+      "id": "xjob:f332fd5c",
+      "seg": "xjob",
+      "text": "If one wing gets heavier than the other, you move fuel across.",
+      "status": "removed",
+      "sources": [
+        "GPIAA",
+        "LADKIN"
+      ],
+      "note": "Imprecise: the crossfeed lets the heavy side's pumps feed both engines (or the other engine), so the heavy side burns down; it is not a tank-to-tank transfer. Suggest: 'If one wing gets heavier than the other, you let the heavy side feed both engines until it evens out.' [no longer in script]"
+    },
+    {
+      "id": "xjob:0fb9f980",
+      "seg": "xjob",
+      "text": "Remember that valve.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "engine:fefe760e",
+      "seg": "engine",
+      "text": "Now zoom into the right engine.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "engine:a427e2f6",
+      "seg": "engine",
+      "text": "A Rolls-Royce Trent seven seventy-two.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "ASN"
+      ],
+      "note": "GPIAA pp.10, 15: Trent 772B."
+    },
+    {
+      "id": "lines:e9714710",
+      "seg": "lines",
+      "text": "Inside, two lines run side by side.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.10-11, 17."
+    },
+    {
+      "id": "lines:49b74372",
+      "seg": "lines",
+      "text": "One carries fuel to the high-pressure fuel pump.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.17: high-pressure fuel pump inlet tube P/N FK30383 (p.23 calls it a low-pressure fuel line: it carries low-pressure fuel INTO the HP pump, so both are consistent)."
+    },
+    {
+      "id": "lines:1d0f89c1",
+      "seg": "lines",
+      "text": "The other carries hydraulic fluid, at about three thousand psi.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB",
+        "CODE7700"
+      ],
+      "note": "GPIAA p.40 (1.16.2): 'hydraulic system working pressure of 3,000 psi'. Secondary: FAA-LL, FSF-AMB, CODE7700. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "gap:d6ef8b5f",
+      "seg": "gap",
+      "text": "They're close.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "gap:fd545350",
+      "seg": "gap",
+      "text": "Very close.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "gap:b3cec9b2",
+      "seg": "gap",
+      "text": "And the gap between them is the whole story.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "bulletin:8f57e378",
+      "seg": "bulletin",
+      "text": "Engines change over their lives.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "bulletin:47cf356c",
+      "seg": "bulletin",
+      "text": "Manufacturers send out updates called Service Bulletins.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.10 (SB RB.211-29-C625)."
+    },
+    {
+      "id": "redesign:c088cd83",
+      "seg": "redesign",
+      "text": "One of them redesigned these two lines to give them more room.",
+      "status": "removed",
+      "sources": [
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "FAA-LL: SB replaced three fuel tubes and two hydraulic tubes to eliminate interference with the modified pump; FSF same. Simplified but fair. [no longer in script]"
+    },
+    {
+      "id": "redesign:b9fe4b61",
+      "seg": "redesign",
+      "text": "And it treated the pair as a set.",
+      "status": "removed",
+      "sources": [
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "Both quote the SB: 'essential that the fuel and hydraulic tubes be fitted as a set'. Reclassified. [no longer in script]"
+    },
+    {
+      "id": "redesign:1cef5ddc",
+      "seg": "redesign",
+      "text": "Install them together.",
+      "status": "removed",
+      "sources": [
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "Same as previous. Reclassified. [no longer in script]"
+    },
+    {
+      "id": "versions:0b13c324",
+      "seg": "versions",
+      "text": "So the same engine model now existed in two versions.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10: pre-SB and post-SB configurations."
+    },
+    {
+      "id": "versions:b39b5ef8",
+      "seg": "versions",
+      "text": "Before the update, and after.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "oldnew:35d7afe1",
+      "seg": "oldnew",
+      "text": "The engine that came off this plane was the newer version.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10: replaced engine was post-SB. Reclassified."
+    },
+    {
+      "id": "oldnew:ab59d11b",
+      "seg": "oldnew",
+      "text": "The spare, on loan from Rolls-Royce, was the older one.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.10: Rolls-Royce loaned engine, pre-SB."
+    },
+    {
+      "id": "notbad:230c05ff",
+      "seg": "notbad",
+      "text": "Same model.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "notbad:19bc3d72",
+      "seg": "notbad",
+      "text": "Not defective, just different.",
+      "status": "framing",
+      "sources": [],
+      "note": "Interpretation consistent with GPIAA pp.10, 15."
+    },
+    {
+      "id": "notbad:e53a127e",
+      "seg": "notbad",
+      "text": "It had been overhauled the year before, and that update was skipped because the parts weren't available.",
+      "status": "removed",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.15-16: post-lease shop visit at HAESL, certified 31 Jul 2000; SB not embodied 'due to a parts shortage'. Report says 'shop visit', not overhaul. Reclassified. [no longer in script]"
+    },
+    {
+      "id": "car:d080a8d0",
+      "seg": "car",
+      "text": "Think of your car.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "car:b6710a8c",
+      "seg": "car",
+      "text": "You need a part, and you grab one from a different model year of the same car.",
+      "status": "framing",
+      "sources": [],
+      "note": "Analogy (SHI-2), no fact."
+    },
+    {
+      "id": "car2:347b62f7",
+      "seg": "car2",
+      "text": "It goes in.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "car2:d0835867",
+      "seg": "car2",
+      "text": "It almost fits.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "car2:dfa86be2",
+      "seg": "car2",
+      "text": "You push a little, and it's in place.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "car2:42e07052",
+      "seg": "car2",
+      "text": "The problem shows up later, down the road.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "pump:c85712c6",
+      "seg": "pump",
+      "text": "Here's what happened in the hangar.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "pump:d7bb6153",
+      "seg": "pump",
+      "text": "The newer hydraulic pump, taken from the old engine, wouldn't fit on the spare.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10: interference with the fuel pump inlet tube. Reclassified."
+    },
+    {
+      "id": "pump:7f83296d",
+      "seg": "pump",
+      "text": "It hit the fuel tube.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10. Reclassified."
+    },
+    {
+      "id": "nosb:128a10d8",
+      "seg": "nosb",
+      "text": "The parts catalog pointed to the Service Bulletin.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10: Airbus Illustrated Parts Catalogue revealed SB C625."
+    },
+    {
+      "id": "nosb:40d7149d",
+      "seg": "nosb",
+      "text": "But the lead technician couldn't pull it up on the computers he had.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.10. Reclassified."
+    },
+    {
+      "id": "verbal:9a9083e7",
+      "seg": "verbal",
+      "text": "Instead, he accepted verbal advice from the maintenance engineering department: just move over the fuel tube from the old engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.10 (FAA-LL names the Air Transat Trent engine controller). Reclassified."
+    },
+    {
+      "id": "mixed:42537aab",
+      "seg": "mixed",
+      "text": "The result: a new-style fuel tube, right next to an old-style hydraulic line.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.11: post-SB fuel tube FK30383 + pre-SB hydraulic line LJ51006. Reclassified."
+    },
+    {
+      "id": "mixed:49f53b8d",
+      "seg": "mixed",
+      "text": "Each one correct on its own.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Each P/N is valid for its own configuration (GPIAA pp.10-11)."
+    },
+    {
+      "id": "mixed:af5b7225",
+      "seg": "mixed",
+      "text": "Together, they didn't have the room they needed.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.84, findings 4-5: mismatch; 'tubes coming into contact with each other'. Secondary: FAA-LL, FSF-AMB. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "weekend:982a5bf5",
+      "seg": "weekend",
+      "text": "And this was a weekend job.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.14 (Sat-Sun). Reclassified."
+    },
+    {
+      "id": "weekend:7245cdaf",
+      "seg": "weekend",
+      "text": "The lead technician was called in from home on a Friday evening.",
+      "status": "removed",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.14: he was called at home ~19:00 and asked to lead the engine change the NEXT DAY; he reported Saturday 06:30. 'Called in' suggests he came in Friday night. Suggest: 'On a Friday evening, the lead technician got a call at home: lead an engine change, starting the next morning.' Fix on-screen 'FRI 7 PM: CALLED IN' to 'FRI 7 PM: THE CALL'. [no longer in script]"
+    },
+    {
+      "id": "weekend:f6e51a84",
+      "seg": "weekend",
+      "text": "Work started at midnight.",
+      "status": "removed",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10: 'commenced at midnight on 17 August 2001' (before the lead technician arrived). Reclassified. [no longer in script]"
+    },
+    {
+      "id": "shifts:e759323e",
+      "seg": "shifts",
+      "text": "On Saturday, he worked from six thirty in the morning to seven at night.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.14."
+    },
+    {
+      "id": "shifts:2274f9f7",
+      "seg": "shifts",
+      "text": "On Sunday, until five thirty in the afternoon.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.14 (returned 06:30, left 17:30)."
+    },
+    {
+      "id": "force:7df22c1e",
+      "seg": "force",
+      "text": "According to the technicians, they got a clearance between the two lines.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.10 (verbatim)."
+    },
+    {
+      "id": "force:bac2d7aa",
+      "seg": "force",
+      "text": "Getting it took some force.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.72 and p.84 finding 7: 'by applying some force to position the line and holding the line while applying torque to the B nut'. Later test clearance ~0.025 in (p.40). Screwdriver remains a hypothesis (p.18). Secondary: FAA-LL, FSF-AMB. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "inspect:76a06c0c",
+      "seg": "inspect",
+      "text": "Two people inspected the job.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.11."
+    },
+    {
+      "id": "inspect:582a40fd",
+      "seg": "inspect",
+      "text": "No discrepancies were noted.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.11. Reclassified."
+    },
+    {
+      "id": "inspect:3296e8b6",
+      "seg": "inspect",
+      "text": "But that inspection didn't require a specific look at the pump and those two lines.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.85 risk finding 3: 'did not specifically require checking the installation of the hydraulic pump, hydraulic tube and the fuel tube'; p.51. Secondary: FAA-LL, FSF-AMB. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "reality:0c6b1f11",
+      "seg": "reality",
+      "text": "This isn't a story about a villain.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "reality:8d05d7b6",
+      "seg": "reality",
+      "text": "This is what maintenance can look like: long shifts, a document you can't reach, advice instead of paperwork, and a part that seems to fit.",
+      "status": "framing",
+      "sources": [],
+      "note": "Recap of verified items; no mechanic-protest claim (good: the union allegation is not in the report)."
+    },
+    {
+      "id": "pressure:d1445084",
+      "seg": "pressure",
+      "text": "Then the hydraulic system pressurized, and the engine started to vibrate.",
+      "status": "removed",
+      "sources": [
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "Reclassified. [no longer in script]"
+    },
+    {
+      "id": "pressure:32221aa6",
+      "seg": "pressure",
+      "text": "The small gap they'd forced was gone.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.84: pressurization 'forced the hydraulic tube back to its natural position and eliminated the clearance'. Secondary: FAA-LL, FSF-AMB. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "pressure:836eda88",
+      "seg": "pressure",
+      "text": "The hydraulic line pressed hard against the fuel tube.",
+      "status": "removed",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.17-18 (contact, wear). Reclassified. [no longer in script]"
+    },
+    {
+      "id": "crack:3dfa83dc",
+      "seg": "crack",
+      "text": "Every vibration rubbed and flexed the metal.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.17: hard contact and chafing where the tubes touched; fatigue 'due to a combination of vibratory stresses being superimposed on the tube deformation'. Wording OK."
+    },
+    {
+      "id": "crack:ebc81804",
+      "seg": "crack",
+      "text": "Investigators later found the tube worn, dented, and cracked.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.17-18. Reclassified."
+    },
+    {
+      "id": "crack:413117a5",
+      "seg": "crack",
+      "text": "An L-shaped crack, about eighty millimeters long.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.17: ~3.0 in (80 mm) long, 2.5 mm wide."
+    },
+    {
+      "id": "fatigue:efae9957",
+      "seg": "fatigue",
+      "text": "Engineers call it high-cycle fatigue.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.17. Reclassified."
+    },
+    {
+      "id": "fatigue:b7120993",
+      "seg": "fatigue",
+      "text": "Not one big blow.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Explains high-cycle fatigue (GPIAA p.17)."
+    },
+    {
+      "id": "fatigue:4b00d530",
+      "seg": "fatigue",
+      "text": "Countless tiny ones.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Same. Reclassified."
+    },
+    {
+      "id": "hours:2a8fc1eb",
+      "seg": "hours",
+      "text": "The plane flew for about sixty-seven hours like that.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.11: 67.5 flight hours since installation. FSF says ~60 h; official value used."
+    },
+    {
+      "id": "hours:ba5eef97",
+      "seg": "hours",
+      "text": "Then, over the Atlantic, the tube gave way.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.7, fn.3."
+    },
+    {
+      "id": "leak:a597ecce",
+      "seg": "leak",
+      "text": "About three hours and forty-five minutes into the flight, fuel starts leaking out of the right engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "note": "Takeoff 00:52, leak 04:38 = 3 h 46 min (GPIAA p.7)."
+    },
+    {
+      "id": "rate:e9dc13b6",
+      "seg": "rate",
+      "text": "Slowly at first.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.21: ~0.5 t/h initially."
+    },
+    {
+      "id": "rate:c2bb60d6",
+      "seg": "rate",
+      "text": "Then faster.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.17, 21. Reclassified."
+    },
+    {
+      "id": "rate:f37e57ee",
+      "seg": "rate",
+      "text": "At its worst, around thirteen metric tons an hour.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.17: max ~13.0 t/h (p.21 table up to 13.8). Reclassified."
+    },
+    {
+      "id": "rate:e1b2a20f",
+      "seg": "rate",
+      "text": "About a ton every five minutes.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "note": "13 t/h / 12 = 1.08 t per 5 min; FSF: ~217 kg/min at 05:45 (=1.09 t/5 min)."
+    },
+    {
+      "id": "noalarm:d43b38de",
+      "seg": "noalarm",
+      "text": "And here's the hard part.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "noalarm:4d9d8348",
+      "seg": "noalarm",
+      "text": "Nothing in the cockpit says the words fuel leak.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.24. Reclassified."
+    },
+    {
+      "id": "noalarm:70aecf23",
+      "seg": "noalarm",
+      "text": "The system can't recognize a leak as a leak.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.24: 'Fuel losses or leaks themselves cannot be identified as such by the ECAM system'. Reclassified."
+    },
+    {
+      "id": "panels:a74b17a9",
+      "seg": "panels",
+      "text": "So let's split the screen.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "panels:4a414a06",
+      "seg": "panels",
+      "text": "On the left, what the crew could see.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "panels:69f85403",
+      "seg": "panels",
+      "text": "On the right, where the fuel really was.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "panels:e49acc62",
+      "seg": "panels",
+      "text": "Same clock.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "oil:524b8a6d",
+      "seg": "oil",
+      "text": "First clue: the right engine's oil looks strange.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA"
+      ],
+      "note": "GPIAA p.7 (05:03) / p.23 (~04:58)."
+    },
+    {
+      "id": "oil:783ac749",
+      "seg": "oil",
+      "text": "Temperature low.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.18: 65 C vs 110 C. Reclassified."
+    },
+    {
+      "id": "oil:d269a49b",
+      "seg": "oil",
+      "text": "Pressure high.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.18: 150 vs 80 psi. Reclassified."
+    },
+    {
+      "id": "oil:9808bd62",
+      "seg": "oil",
+      "text": "Quantity dropping.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.18, 23: 14 vs 17 L. Reclassified."
+    },
+    {
+      "id": "oil2:2d8d39a2",
+      "seg": "oil2",
+      "text": "One likely reason: extra fuel rushing through the engine's fuel-oil heat exchanger, chilling the oil.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA pp.18-19."
+    },
+    {
+      "id": "oil2:eeaa99fd",
+      "seg": "oil2",
+      "text": "To the crew, it looked like an oil problem.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "oil2:c0527e37",
+      "seg": "oil2",
+      "text": "It was within limits, so they reported it to the company.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.24 (within limits), p.7 and p.24 (HF to dispatch/ops 05:21). Reclassified."
+    },
+    {
+      "id": "trim:7eaab141",
+      "seg": "trim",
+      "text": "Meanwhile, the automatic trim tank moved fuel forward from the tail, right on schedule.",
+      "status": "removed",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "WRONG: GPIAA p.24 says the complete forward transfer 'is not scheduled to occur until 35 minutes from the destination'; it happened early (05:11), consistent with the low-tank trigger (p.19: inner tank below 4,000 kg). Suggest: 'Meanwhile, the automatic trim tank started moving fuel forward from the tail, long before it normally would.' Delay of the advisory: 15 min (findings) vs ~25 min (FAA-LL text). [no longer in script]"
+    },
+    {
+      "id": "trim:9c30d81f",
+      "seg": "trim",
+      "text": "That fuel topped up the wings, including the leaking side, and masked the loss.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.74: delayed the fuel ADV 'by approximately 15 minutes' (also p.85 risk 6); p.80: 'masking the fuel leak problem'; the 3.2 t went to the right (leaking) wing. FAA-LL's '25 minutes' is superseded. Secondary: FAA-LL, SKYBRARY. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "fmgc:3894d768",
+      "seg": "fmgc",
+      "text": "The flight computer's fuel prediction didn't account for a leak either.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.25 (EFOB). Reclassified."
+    },
+    {
+      "id": "fmgc:d0208755",
+      "seg": "fmgc",
+      "text": "It kept showing a more hopeful number.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.25: predicted reserves 'significantly above what would actually occur'. Reclassified."
+    },
+    {
+      "id": "adv:429687c3",
+      "seg": "adv",
+      "text": "Fifty-five minutes after the leak began, a message finally appears.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "04:38 to 05:33 (GPIAA p.7)."
+    },
+    {
+      "id": "adv:d0f53973",
+      "seg": "adv",
+      "text": "A white, pulsing advisory.",
+      "status": "removed",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.22, 24. Reclassified. [no longer in script]"
+    },
+    {
+      "id": "adv:99d6d356",
+      "seg": "adv",
+      "text": "Fuel imbalance.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.7, 24. Reclassified."
+    },
+    {
+      "id": "adv:368b02e2",
+      "seg": "adv",
+      "text": "No alarm sound.",
+      "status": "removed",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Not stated explicitly. GPIAA p.23-24 ties the single chime to amber cautions; it does not say the white ADV had no sound. Suggest: 'Not a warning. Just an advisory.' and on screen '(WHITE ADVISORY)' instead of '(WHITE, NO CHIME)', or find an Airbus FCOM source. [no longer in script]"
+    },
+    {
+      "id": "adv2:831f4bf2",
+      "seg": "adv2",
+      "text": "Of course there's an imbalance.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "adv2:33ae8295",
+      "seg": "adv2",
+      "text": "The right side is losing fuel.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "adv2:aa45b496",
+      "seg": "adv2",
+      "text": "The left side isn't.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "xfeed:8b64245d",
+      "seg": "xfeed",
+      "text": "The crew runs the imbalance procedure from memory.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "LADKIN",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.75 and p.84 finding 10: 'by memory and without reference to the QRH'. Secondary: FAA-LL, LADKIN, SKYBRARY. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "xfeed:7de3ba09",
+      "seg": "xfeed",
+      "text": "Open the crossfeed.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.24 (05:36). Reclassified."
+    },
+    {
+      "id": "xfeed:cdffbd9e",
+      "seg": "xfeed",
+      "text": "Turn off the right wing pumps.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.24. Reclassified."
+    },
+    {
+      "id": "xfeed:e4fd25c8",
+      "seg": "xfeed",
+      "text": "Let the left tank feed the right engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "LADKIN"
+      ],
+      "note": "GPIAA p.24. Reclassified."
+    },
+    {
+      "id": "warning:52c0c8bf",
+      "seg": "warning",
+      "text": "On paper, that evens things out.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "warning:064b4b14",
+      "seg": "warning",
+      "text": "But the checklist carries a warning: don't use this procedure if a fuel leak is suspected.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA",
+        "LADKIN",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.52: CAUTION note 'if a fuel leak is suspected, the crew should instead refer to the FUEL LEAK procedures'; p.78: caution 'not prominent'. Literal QRH text only appears as Figure 7 (image, p.52); on-screen text is now a paraphrase without quotes. Secondary: AOPA, LADKIN, FAA-LL. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "feeding:167ce531",
+      "seg": "feeding",
+      "text": "With the valve open, fuel from the healthy left tank flowed to the right engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "LADKIN"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "feeding:05df56e2",
+      "seg": "feeding",
+      "text": "And out through the crack.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "LADKIN"
+      ],
+      "note": "GPIAA p.75: crossfeed 'resulted in the fuel from the left wing tanks being fed to the leak in the right engine'. Secondary: FAA-LL, LADKIN. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "feeding2:9cf43847",
+      "seg": "feeding2",
+      "text": "Without knowing it, the crew was feeding the leak.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "LADKIN"
+      ],
+      "note": "GPIAA p.75 (same). Captain isolated the left tank at 05:54 (p.77). Secondary: FAA-LL, LADKIN. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "feeding2:6bf68ff3",
+      "seg": "feeding2",
+      "text": "Watch the two panels pull apart.",
+      "status": "framing",
+      "sources": [],
+      "note": "Visual cue."
+    },
+    {
+      "id": "why:49f6346a",
+      "seg": "why",
+      "text": "So why didn't they suspect a leak?",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "why:5c32f1b4",
+      "seg": "why",
+      "text": "Put yourself in that seat.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "check:85cbbc37",
+      "seg": "check",
+      "text": "At the last routine fuel check, they were only about one percent off the plan.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "AOPA"
+      ],
+      "note": "GPIAA p.74: check at 04:58 crossing 30W 'within 0.2 tons or 1% of the planned fuel quantity'. Secondary: FAA-LL, AOPA. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "indication:586eeee8",
+      "seg": "indication",
+      "text": "Then, soon after the crossfeed opened, the fuel numbers fell far below anything they'd seen.",
+      "status": "removed",
+      "sources": [
+        "AOPA",
+        "LADKIN"
+      ],
+      "note": "AOPA: ~17,000 lb less than expected. Reclassified. [no longer in script]"
+    },
+    {
+      "id": "indication:cc5e6192",
+      "seg": "indication",
+      "text": "Right after a strange oil reading.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "indication:c68a4569",
+      "seg": "indication",
+      "text": "Two odd indications in one night looked like a computer problem, not a hole.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "AOPA",
+        "LADKIN"
+      ],
+      "note": "GPIAA p.77: crew 'hypothesized that a computer malfunction would account for the ambiguous indications'. Secondary: FAA-LL, AOPA, LADKIN. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "window:5b6d0eae",
+      "seg": "window",
+      "text": "Someone checked the wings from the cabin.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA"
+      ],
+      "note": "GPIAA p.7. Reclassified."
+    },
+    {
+      "id": "window:fabd3907",
+      "seg": "window",
+      "text": "It was night.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "window:2a4bf162",
+      "seg": "window",
+      "text": "Nothing to see.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "AOPA"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "training:45f544c9",
+      "seg": "training",
+      "text": "And neither pilot had ever trained for, or faced, a fuel leak like this.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "SKYBRARY",
+        "AVWEB"
+      ],
+      "note": "GPIAA p.76 and p.85 risk 10: never 'exposed to a fuel leak situation during training or operations'. Secondary: FAA-LL, SKYBRARY, AVWEB. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "divert:763c1dbc",
+      "seg": "divert",
+      "text": "At five forty-five UTC, the fuel is below what they need for Lisbon.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.7 (ASN says 05:41; official used)."
+    },
+    {
+      "id": "divert:65a819f3",
+      "seg": "divert",
+      "text": "They turn toward Lajes, in the Azores.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.7."
+    },
+    {
+      "id": "flameout1:82b257a5",
+      "seg": "flameout1",
+      "text": "Twenty-eight minutes later, the right engine runs dry and goes quiet.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "05:45 to 06:13 (GPIAA p.8)."
+    },
+    {
+      "id": "flameout1:63c917e2",
+      "seg": "flameout1",
+      "text": "Thirty-nine thousand feet.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.8: FL390."
+    },
+    {
+      "id": "flameout1:52fff5fb",
+      "seg": "flameout1",
+      "text": "About a hundred and fifty miles from the runway.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.8: 150 miles from Lajes (ASN: 135)."
+    },
+    {
+      "id": "flameout2:90d96324",
+      "seg": "flameout2",
+      "text": "Thirteen minutes after that, the left engine stops too.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "06:26 (GPIAA p.8). Reclassified."
+    },
+    {
+      "id": "flameout2:57eb5c89",
+      "seg": "flameout2",
+      "text": "They're at about thirty-four thousand five hundred feet, roughly sixty-five nautical miles out.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.8 (AOPA 78 mi, ASN 85 nm; official used)."
+    },
+    {
+      "id": "rat:77406c9f",
+      "seg": "rat",
+      "text": "A small propeller drops into the airstream.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.26. Reclassified."
+    },
+    {
+      "id": "rat:74cb2e98",
+      "seg": "rat",
+      "text": "The ram air turbine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.26. Reclassified."
+    },
+    {
+      "id": "rat:85ad46a3",
+      "seg": "rat",
+      "text": "It keeps the essential systems powered.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.26: RAT powers green hydraulics and emergency generator. Reclassified."
+    },
+    {
+      "id": "glider:0e6987b9",
+      "seg": "glider",
+      "text": "Now the A330 is a glider.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "glider:461c127e",
+      "seg": "glider",
+      "text": "No engines.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "glider:732a496e",
+      "seg": "glider",
+      "text": "One shot at a runway.",
+      "status": "framing",
+      "sources": [],
+      "note": "Narrative."
+    },
+    {
+      "id": "glide:01cce024",
+      "seg": "glide",
+      "text": "For about nineteen minutes, the pilots trade height for distance.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY",
+        "AOPA"
+      ],
+      "note": "06:26 to 06:45. Reclassified."
+    },
+    {
+      "id": "glide:2051f779",
+      "seg": "glide",
+      "text": "Near the island, they're still too high.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.8. Reclassified."
+    },
+    {
+      "id": "glide:6572928d",
+      "seg": "glide",
+      "text": "So they fly a full circle, then S-turns, to bleed off altitude.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.8. Reclassified."
+    },
+    {
+      "id": "threshold:64bf11b0",
+      "seg": "threshold",
+      "text": "They cross the start of the runway at about two hundred knots.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.8."
+    },
+    {
+      "id": "touch:22a84159",
+      "seg": "touch",
+      "text": "The first touchdown is hard.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.8: 1,030 ft; p.11: 1,050 ft (internal discrepancy). On-screen now '~1,000 FT'."
+    },
+    {
+      "id": "touch:4ca978eb",
+      "seg": "touch",
+      "text": "The plane bounces.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "touch:f3db9d61",
+      "seg": "touch",
+      "text": "The second touchdown comes with maximum braking.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.8: 2,800 ft. Reclassified."
+    },
+    {
+      "id": "stop:ca09ba2f",
+      "seg": "stop",
+      "text": "It stops about seventy-six hundred feet down a ten-thousand-foot runway.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "CODE7700"
+      ],
+      "note": "GPIAA p.8 (AOPA gives runway 10,866 ft; official used)."
+    },
+    {
+      "id": "evac:37e85250",
+      "seg": "evac",
+      "text": "Fire crews put out a fire at the left landing gear wheels.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.8. Reclassified."
+    },
+    {
+      "id": "evac:1d45b904",
+      "seg": "evac",
+      "text": "The evacuation takes about ninety seconds.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.10."
+    },
+    {
+      "id": "injuries:0e4d8db8",
+      "seg": "injuries",
+      "text": "No one died.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "ASN"
+      ],
+      "note": "GPIAA p.8."
+    },
+    {
+      "id": "injuries:e33a1ee9",
+      "seg": "injuries",
+      "text": "Eighteen people were hurt in the evacuation, two of them seriously.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "SKYBRARY",
+        "FSF-AMB"
+      ],
+      "note": "GPIAA p.8: 2 serious, 14 pax + 2 cabin crew minor (p.2 summary says 16 pax + 2 crew)."
+    },
+    {
+      "id": "report:4fbc898a",
+      "seg": "report",
+      "text": "The investigators praised the captain's landing.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA p.78 and p.85 findings 12-13: handling 'remarkable'; 'averted a catastrophic accident'. Counterpoint p.84: crew did not correctly evaluate the situation; not actioning FUEL LEAK was the key factor. Secondary: FAA-LL, FSF-AMB, SKYBRARY. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "report:74ae3a1c",
+      "seg": "report",
+      "text": "But their report looked far beyond the cockpit.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "cheese:26ebefe8",
+      "seg": "cheese",
+      "text": "Safety engineers have a picture for this.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "cheese:b3cf8ece",
+      "seg": "cheese",
+      "text": "The Swiss cheese model.",
+      "status": "framing",
+      "sources": [],
+      "note": "Our framing (James Reason); the report does not use it."
+    },
+    {
+      "id": "cheese2:a702bbaf",
+      "seg": "cheese2",
+      "text": "Every defense is a slice.",
+      "status": "framing",
+      "sources": [],
+      "note": "Framing."
+    },
+    {
+      "id": "cheese2:ad07b5e9",
+      "seg": "cheese2",
+      "text": "Every slice has holes.",
+      "status": "framing",
+      "sources": [],
+      "note": "Framing."
+    },
+    {
+      "id": "cheese2:b481c4ef",
+      "seg": "cheese2",
+      "text": "Usually the holes don't line up, and the problem gets stopped.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "slice1:4c264e32",
+      "seg": "slice1",
+      "text": "Slice one: the part.",
+      "status": "framing",
+      "sources": [],
+      "note": "Label."
+    },
+    {
+      "id": "slice1:e4203cb8",
+      "seg": "slice1",
+      "text": "A spare engine in an older version, with paperwork that didn't make that clear.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA p.16 (Rework sheet without C625; carry-forward list naming post-mod pumps). Reclassified."
+    },
+    {
+      "id": "slice2:1b8108f8",
+      "seg": "slice2",
+      "text": "Slice two: the installation.",
+      "status": "framing",
+      "sources": [],
+      "note": "Label."
+    },
+    {
+      "id": "slice2:2fda9b39",
+      "seg": "slice2",
+      "text": "A bulletin no one could reach, verbal advice, and a gap made by force.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "Recap of verified items."
+    },
+    {
+      "id": "slice3:edc15316",
+      "seg": "slice3",
+      "text": "Slice three: the warning nobody understood.",
+      "status": "framing",
+      "sources": [],
+      "note": "Label/framing."
+    },
+    {
+      "id": "slice3:42c38149",
+      "seg": "slice3",
+      "text": "Strange oil, a quiet white message, and no system that could say leak.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Recap (GPIAA pp.7, 24). Reclassified."
+    },
+    {
+      "id": "slice4:df1d3676",
+      "seg": "slice4",
+      "text": "Slice four: the crossfeed.",
+      "status": "framing",
+      "sources": [],
+      "note": "Label."
+    },
+    {
+      "id": "slice4:4a27a9ab",
+      "seg": "slice4",
+      "text": "A memory procedure, used on the one night it shouldn't have been.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "LADKIN"
+      ],
+      "note": "GPIAA p.75, p.84 finding 10. Secondary: FAA-LL, LADKIN. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "cheese3:887414e7",
+      "seg": "cheese3",
+      "text": "Line up the holes, and one straight path runs through all four.",
+      "status": "framing",
+      "sources": [],
+      "note": "Framing."
+    },
+    {
+      "id": "after:96fea6d9",
+      "seg": "after",
+      "text": "The recommendations went after the slices.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "after:f833b641",
+      "seg": "after",
+      "text": "Alerts when fuel used and fuel on board don't add up.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA Recommendation AA/2004 (p.90): FUEL FU/FOB DISCREPANCY alert (3,500 kg threshold, p.89). Secondary: FAA-LL, SKYBRARY. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "after:27006cc3",
+      "seg": "after",
+      "text": "Better leak training and checklists.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "SKYBRARY",
+        "FAA-AD"
+      ],
+      "note": "GPIAA AC/2004 (p.92) crew training on fuel leaks; AF/2004 (p.93) combine FUEL IMBALANCE and FUEL LEAK checklists; FAA AD 2006-02-01 mandated new AFM fuel-leak procedures. Secondary: FAA-LL, SKYBRARY, FAA-AD. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "after:24d34bf4",
+      "seg": "after",
+      "text": "Better planning for major component changes.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "SKYBRARY"
+      ],
+      "note": "GPIAA AK/2004 (pp.94-95, 4.2.7 Major Component Change Planning). Secondary: FAA-LL, SKYBRARY. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "twist:33c34003",
+      "seg": "twist",
+      "text": "The part wasn't broken.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA pp.10-11. Reclassified."
+    },
+    {
+      "id": "twist:639d7b38",
+      "seg": "twist",
+      "text": "It wasn't fake.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Genuine Rolls-Royce P/N FK30383 (GPIAA pp.10-11). Reclassified."
+    },
+    {
+      "id": "twist:81720ab2",
+      "seg": "twist",
+      "text": "It was the right part, for a different version of the same engine.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "Reclassified."
+    },
+    {
+      "id": "twist2:c3f8bc86",
+      "seg": "twist2",
+      "text": "It fit.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "twist2:5c94af9a",
+      "seg": "twist2",
+      "text": "And that was the problem.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "question:8cb48946",
+      "seg": "question",
+      "text": "Now take that seat.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "question:03403a02",
+      "seg": "question",
+      "text": "Your last fuel check was almost on plan.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "AOPA"
+      ],
+      "note": "GPIAA p.74 (same as check). Secondary: FAA-LL, AOPA. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "question:70bce3b7",
+      "seg": "question",
+      "text": "Your oil readings are acting up.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "question:c9bab886",
+      "seg": "question",
+      "text": "And a quiet white message says your wings are out of balance.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "choice:25e0e7dc",
+      "seg": "choice",
+      "text": "Would you have spotted the leak, or opened the crossfeed too?",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "choice:0f40c075",
+      "seg": "choice",
+      "text": "A: suspect a leak, and keep it closed.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "choice:070281d1",
+      "seg": "choice",
+      "text": "B: trust the procedure, and open it.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "choice:541b7722",
+      "seg": "choice",
+      "text": "Tell me in the comments.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "signoff:5a31f94d",
+      "seg": "signoff",
+      "text": "Everything has an inside.",
+      "status": "framing",
+      "sources": [],
+      "note": ""
+    },
+    {
+      "id": "signoff:8399ac2b",
+      "seg": "signoff",
+      "text": "This was Cutplane.",
+      "status": "framing",
+      "sources": [],
+      "note": "Channel name."
+    },
+    {
+      "id": "xjob:e9a8e3b7",
+      "seg": "xjob",
+      "text": "If one wing gets heavier than the other, you let the heavy side feed both engines until it evens out.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "LADKIN"
+      ],
+      "note": "GPIAA pp.19-20, 24: crossfeed open + pumps off on the light side lets the heavy side feed both engines. Corrected wording (replaces xjob:f332fd5c)."
+    },
+    {
+      "id": "notbad:8a0b1534",
+      "seg": "notbad",
+      "text": "It had been through the shop the year before, and that update was skipped because the parts weren't available.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.15-16: post-lease shop visit at HAESL, certified 31 Jul 2000; SB not embodied due to a parts shortage. Corrected wording."
+    },
+    {
+      "id": "weekend:4594100a",
+      "seg": "weekend",
+      "text": "On a Friday evening, the lead technician got a call at home: lead an engine change, starting the next morning.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "GPIAA p.14: called at home ~19:00, asked to lead the engine change the next day; reported Sat 06:30. Corrected wording (replaces weekend:7245cdaf)."
+    },
+    {
+      "id": "trim:ebbb969d",
+      "seg": "trim",
+      "text": "Meanwhile, the automatic trim tank started moving fuel forward from the tail, long before it normally would.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.19, 24: final forward transfer not scheduled until 35 min from destination; it began at 05:11. FAA-LL: would not normally occur until late in the flight. Corrected wording."
+    },
+    {
+      "id": "adv:60c0835b",
+      "seg": "adv",
+      "text": "Not a warning.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "GPIAA pp.22, 24: white ADV advisory (not an amber caution or red warning). FAA-LL: advisory 'does not require immediate flight crew action'."
+    },
+    {
+      "id": "adv:805c9521",
+      "seg": "adv",
+      "text": "Just an advisory.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "Same as previous."
+    },
+    {
+      "id": "redesign:f077edb8",
+      "seg": "redesign",
+      "text": "Two of them matter here.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "pp.45, 49: two Rolls-Royce SBs (C664 pump, C625 engine dressing). [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "redesign:64347665",
+      "seg": "redesign",
+      "text": "One gave the engine a wider hydraulic pump.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "pp.45, 49: SB C664 introduced a redesigned hydraulic pump; C625 refers to 'the widened pump housing'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "redesign:43b7adbb",
+      "seg": "redesign",
+      "text": "The other changed the tubes around it to make room, and said the tubes must be fitted as a set.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "pp.45, 49: C625 modified the dressing 'to accommodate the widened pump housing', replacing three fuel and two hydraulic tubes; 'essential that the tubes be fitted as a set'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "deadline:3fa0b15c",
+      "seg": "deadline",
+      "text": "In that conversation, both sides agreed that not having the bulletin was a concern.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "p.71: 'both individuals acknowledged that the unavailability of the SB's was of concern'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "deadline:a71bdc95",
+      "seg": "deadline",
+      "text": "But the talk went back to when the job would be done.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "p.71: 'the discussion reverted to the issue of work completion time'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "deadline2:5dbfa25d",
+      "seg": "deadline2",
+      "text": "There was a scheduled flight to make, and the hangar had to be cleared for an upcoming event.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "note": "p.72: 'complete the work in time for a scheduled flight and to clear the hangar for an upcoming event'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "deadline2:4e97d921",
+      "seg": "deadline2",
+      "text": "The report says that time pressure led the lead technician to cut his search for the bulletin short.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "p.85 risk finding 2: time pressures influenced the lead technician 'to curtail his search for the SB and to rely on verbal advice'. Note: the report records no objection to releasing the aircraft (SHI-4 protest claim still not supported). [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "pressure:72953d58",
+      "seg": "pressure",
+      "text": "Then the hydraulic system pressurized, to about three thousand psi.",
+      "status": "verified",
+      "sources": [
+        "GPIAA",
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "note": "p.40: 3,000 psi working pressure. Replaces the old sentence with 'engine started to vibrate' (not in report at this point: p.40 speaks of pump pulsation). [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "pressure:f7a2337c",
+      "seg": "pressure",
+      "text": "The line sprang back toward its natural position.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "p.84: 'forced the hydraulic tube back to its natural position'; p.49: line 'had a tendency to spring back'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "pressure:1851af4c",
+      "seg": "pressure",
+      "text": "The hydraulic line pressed against the fuel tube, with the pump pulsing behind it.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "p.17: hard contact; p.40: 'the pump pulsation'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "adv:3d76dc94",
+      "seg": "adv",
+      "text": "A white, pulsing message.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "pp.22, 24: 'a pulsing, white ECAM advisory ADV message'. [GPIAA full report checked 22/11/2026]"
+    },
+    {
+      "id": "indication:bfe173d0",
+      "seg": "indication",
+      "text": "Then, just after the crossfeed opened, they noticed the gauges showed seven tons less than predicted.",
+      "status": "verified",
+      "sources": [
+        "GPIAA"
+      ],
+      "note": "p.75: 'just after taking the initial actions to establish the crossfeed ... The fuel on board was 7 tons lower than predicted'. The deficit already existed (7.3 t at 05:36); that is when the crew noticed it, as the sentence now says. [GPIAA full report checked 22/11/2026]"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "fact": "People on board",
+      "value": "306 (13 crew + 293 passengers)",
+      "fontes": [
+        "GPIAA",
+        "ASN",
+        "TRANSAT",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.7, p.11"
+    },
+    {
+      "id": "F02",
+      "fact": "Scheduled departure UTC",
+      "value": "00:10",
+      "fontes": [
+        "GPIAA",
+        "CODE7700"
+      ],
+      "nota": "GPIAA p.7"
+    },
+    {
+      "id": "F03",
+      "fact": "Actual takeoff UTC from Toronto (CYYZ)",
+      "value": "00:52",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.7. Destination Lisbon (LPPT)"
+    },
+    {
+      "id": "F04",
+      "fact": "Fuel planned/loaded at departure",
+      "value": "47.9 t (refuel slip ramp 47,937 kg)",
+      "fontes": [
+        "GPIAA",
+        "ASN",
+        "CODE7700"
+      ],
+      "nota": "GPIAA pp.7, 20"
+    },
+    {
+      "id": "F05",
+      "fact": "Fuel on board at takeoff (DFDR)",
+      "value": "46.9 t (46,900 kg)",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.15"
+    },
+    {
+      "id": "F06",
+      "fact": "Regulatory fuel excess",
+      "value": "5.5 t (CODE7700, ASN) vs 4.5 t (Wikipedia)",
+      "fontes": [
+        "CODE7700",
+        "ASN",
+        "WIKI"
+      ],
+      "nota": "Divergent; not confirmed in pp.1-39 of report"
+    },
+    {
+      "id": "F07",
+      "fact": "Leak start UTC",
+      "value": "04:38",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "TRANSAT",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.7 note 3, p.23"
+    },
+    {
+      "id": "F08",
+      "fact": "Maximum leak rate",
+      "value": "about 13.0 t/h (table p.21 up to 13.8 t/h)",
+      "fontes": [
+        "GPIAA",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.17; initial 0.5 t/h p.21"
+    },
+    {
+      "id": "F09",
+      "fact": "First abnormal indication: unusual oil on engine 2",
+      "value": "05:03 (p.7) or about 04:58 (p.23)",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "SKYBRARY"
+      ],
+      "nota": "Report gives both times"
+    },
+    {
+      "id": "F10",
+      "fact": "FUEL ADV / fuel imbalance advisory (3,000 kg) UTC",
+      "value": "05:33",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "CODE7700"
+      ],
+      "nota": "GPIAA pp.7, 23-24; about 55 min after leak start"
+    },
+    {
+      "id": "F11",
+      "fact": "Crossfeed opened and right wing pumps OFF UTC",
+      "value": "05:36",
+      "fontes": [
+        "GPIAA",
+        "WIKI",
+        "ASN"
+      ],
+      "nota": "GPIAA p.24"
+    },
+    {
+      "id": "F12",
+      "fact": "Diversion to Lajes initiated UTC",
+      "value": "05:45",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "FSF-AMB"
+      ],
+      "nota": "GPIAA p.7; ASN says 05:41"
+    },
+    {
+      "id": "F13",
+      "fact": "Fuel on board at 05:48 / 05:54",
+      "value": "7.0 t / 4.8 t",
+      "fontes": [
+        "GPIAA",
+        "CODE7700"
+      ],
+      "nota": "GPIAA pp.7-8"
+    },
+    {
+      "id": "F14",
+      "fact": "Right engine (no. 2) flameout UTC and altitude",
+      "value": "06:13, FL390, about 150 miles from Lajes",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "CODE7700",
+        "SKYBRARY"
+      ],
+      "nota": "GPIAA p.8; ASN says 135 mi"
+    },
+    {
+      "id": "F15",
+      "fact": "Fuel on board reported at 06:15",
+      "value": "600 kg",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "nota": "GPIAA p.8"
+    },
+    {
+      "id": "F16",
+      "fact": "Mayday UTC",
+      "value": "06:23",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB"
+      ],
+      "nota": "GPIAA p.8"
+    },
+    {
+      "id": "F17",
+      "fact": "Left engine (no. 1) flameout UTC and altitude",
+      "value": "06:26, about FL345 (34,500 ft), about 65 nm from Lajes",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "CODE7700",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.8; ASN 85 nm, AOPA 78 mi diverge; official valid"
+    },
+    {
+      "id": "F18",
+      "fact": "Glide time after second flameout",
+      "value": "about 19 minutes (06:26 to 06:45)",
+      "fontes": [
+        "GPIAA",
+        "TRANSAT",
+        "SKYBRARY",
+        "WIKI"
+      ],
+      "nota": "Derived from GPIAA p.8 times"
+    },
+    {
+      "id": "F19",
+      "fact": "Glide distance",
+      "value": "about 65 nm (120 km) from airport at second flameout; actual path longer (360 deg turn and S-turns)",
+      "fontes": [
+        "GPIAA",
+        "WIKI",
+        "AVWEB"
+      ],
+      "nota": "Divergent sources 78/85 nm"
+    },
+    {
+      "id": "F20",
+      "fact": "Position at 06:31",
+      "value": "about 8 miles from runway 33 at about 13,000 ft",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "AOPA"
+      ],
+      "nota": "GPIAA p.8"
+    },
+    {
+      "id": "F21",
+      "fact": "Threshold crossing speed",
+      "value": "about 200 kt",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "FSF-AMB",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.8; touchdown speed not stated"
+    },
+    {
+      "id": "F22",
+      "fact": "Touchdowns",
+      "value": "1st hard at 1,030 ft, bounce, 2nd at 2,800 ft; stopped 7,600 ft from approach end of 10,000 ft runway",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "AOPA",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.8; p.11 gives 1,050 ft and 1,650 ft bounce"
+    },
+    {
+      "id": "F23",
+      "fact": "Landing time UTC and runway",
+      "value": "06:45, runway 33, Lajes (Terceira, Azores)",
+      "fontes": [
+        "GPIAA",
+        "CODE7700",
+        "TRANSAT"
+      ],
+      "nota": "GPIAA p.8"
+    },
+    {
+      "id": "F24",
+      "fact": "Tires",
+      "value": "Tires abraded and deflated 300-450 ft after second touchdown; left rear inboard wheel detached; count not confirmed (Wikipedia: all 8 main; ASN: 8 of 10)",
+      "fontes": [
+        "GPIAA",
+        "ASN",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.11; count pending"
+    },
+    {
+      "id": "F25",
+      "fact": "Injuries",
+      "value": "2 serious + 14 passengers minor + 2 cabin crew minor = 18; no fatalities",
+      "fontes": [
+        "GPIAA",
+        "SKYBRARY",
+        "FSF-AMB",
+        "ASN"
+      ],
+      "nota": "GPIAA pp.8, 10, 11; summary p.2 says 16 passengers and 2 cabin crew"
+    },
+    {
+      "id": "F26",
+      "fact": "Evacuation duration",
+      "value": "about 90 seconds",
+      "fontes": [
+        "GPIAA",
+        "SKYBRARY",
+        "FSF-AMB",
+        "TRANSAT"
+      ],
+      "nota": "GPIAA p.10"
+    },
+    {
+      "id": "F27",
+      "fact": "Captain",
+      "value": "Robert Piche, age 48, 16,800 h total, 796 h on A330",
+      "fontes": [
+        "GPIAA",
+        "WIKI"
+      ],
+      "nota": "GPIAA p.12 (names not in report text read; names from WIKI/ASN/TRANSAT)"
+    },
+    {
+      "id": "F28",
+      "fact": "First officer",
+      "value": "Dirk DeJager, age 28, 4,800 h total, 386 h on A330",
+      "fontes": [
+        "GPIAA",
+        "WIKI",
+        "ASN",
+        "TRANSAT"
+      ],
+      "nota": "GPIAA p.12"
+    },
+    {
+      "id": "F29",
+      "fact": "Aircraft",
+      "value": "Airbus A330-243, C-GITS, MSN 271, built 1999, engines Rolls-Royce Trent 772B",
+      "fontes": [
+        "ASN",
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.15; ASN"
+    },
+    {
+      "id": "F30",
+      "fact": "Engine 2 replaced after metal chips on master chip detector",
+      "value": "15 and 17 Aug 2001; change began midnight 17 Aug",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "CODE7700"
+      ],
+      "nota": "GPIAA p.10"
+    },
+    {
+      "id": "F31",
+      "fact": "Loaner engine configuration",
+      "value": "pre-SB RB.211-29-C625 (and C664); removed engine was post-SB",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "CODE7700"
+      ],
+      "nota": "GPIAA pp.10, 15-16"
+    },
+    {
+      "id": "F32",
+      "fact": "Installed fuel tube",
+      "value": "post-SB C625 fuel tube P/N FK30383 (high pressure fuel pump inlet tube)",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA pp.10-11, 17"
+    },
+    {
+      "id": "F33",
+      "fact": "Installed hydraulic line",
+      "value": "pre-SB C625 hydraulic line P/N LJ51006",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.11"
+    },
+    {
+      "id": "F34",
+      "fact": "Original fuel tube on loaner engine",
+      "value": "P/N FK12446",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.10"
+    },
+    {
+      "id": "F35",
+      "fact": "Hydraulic pump installed",
+      "value": "post-SB RB.211-29-C664 pump P/N 974800 from removed engine",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA pp.10-11"
+    },
+    {
+      "id": "F36",
+      "fact": "Why change was needed",
+      "value": "Removed engine pump would not fit loaner engine due to interference with fuel pump inlet tube",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "CODE7700"
+      ],
+      "nota": "GPIAA p.10"
+    },
+    {
+      "id": "F37",
+      "fact": "Lead technician could not access SBs on terminals and accepted verbal advice from maintenance engineering",
+      "value": "statement",
+      "fontes": [
+        "GPIAA",
+        "FSF-AMB",
+        "FAA-LL"
+      ],
+      "nota": "GPIAA p.10"
+    },
+    {
+      "id": "F38",
+      "fact": "Clearance obtained per technicians; inspections found no discrepancies",
+      "value": "statement",
+      "fontes": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "nota": "GPIAA pp.10-11. Millimetre clearance not in report pp.1-39"
+    },
+    {
+      "id": "F39",
+      "fact": "Screwdriver hypothesis for scoring marks",
+      "value": "report suggests, does not confirm",
+      "fontes": [
+        "GPIAA",
+        "CODE7700"
+      ],
+      "nota": "GPIAA p.18"
+    },
+    {
+      "id": "F40",
+      "fact": "Crack",
+      "value": "L-shaped, about 80 mm long, about 2.5 mm wide; wall thinning 0.005 in; dent 0.044 in; high-cycle fatigue",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA pp.17-18; examination at Rolls-Royce Derby under AAIB supervision"
+    },
+    {
+      "id": "F41",
+      "fact": "Engine hours since installation",
+      "value": "67.5 flight hours",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.11"
+    },
+    {
+      "id": "F42",
+      "fact": "Lead technician schedule",
+      "value": "called ~19:00 Fri 17 Aug; worked Sat 06:30-19:00; finished Sun 17:30",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.14"
+    },
+    {
+      "id": "F43",
+      "fact": "Rolls-Royce representative role",
+      "value": "could offer advice but not part of or responsible for decision-making",
+      "fontes": [
+        "GPIAA",
+        "FAA-LL"
+      ],
+      "nota": "GPIAA p.14; not consulted per FAA-LL"
+    },
+    {
+      "id": "F44",
+      "fact": "No QC inspector on site over weekend; post-installation checks did not specifically require checking pump, hydraulic and fuel tube",
+      "value": "statement",
+      "fontes": [
+        "FAA-LL",
+        "FSF-AMB"
+      ],
+      "nota": "Secondary; Analysis section not read"
+    },
+    {
+      "id": "F45",
+      "fact": "Mechanic protest claim",
+      "value": "Union claimed (Globe and Mail 2001) a mechanic did not want to release aircraft; NOT stated in report pp.1-39",
+      "fontes": [
+        "PPRUNE-GM"
+      ],
+      "nota": "Allegation only; do not state as fact"
+    },
+    {
+      "id": "F46",
+      "fact": "ECAM cannot identify fuel leaks",
+      "value": "statement",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.24"
+    },
+    {
+      "id": "F47",
+      "fact": "FMGC EFOB prediction does not account for leak",
+      "value": "statement",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA pp.25-26"
+    },
+    {
+      "id": "F48",
+      "fact": "QRH FUEL IMBALANCE caution",
+      "value": "Do not apply this procedure if fuel leak is suspected. Refer to Fuel Leak procedure.",
+      "fontes": [
+        "AOPA",
+        "FAA-LL"
+      ],
+      "nota": "Verify wording in QRH"
+    },
+    {
+      "id": "F49",
+      "fact": "Crew performed FUEL IMBALANCE from memory, not QRH",
+      "value": "statement",
+      "fontes": [
+        "FSF-AMB",
+        "FAA-LL",
+        "LADKIN"
+      ],
+      "nota": ""
+    },
+    {
+      "id": "F50",
+      "fact": "Right-engine ENG 2 FUEL FILTER CLOG caution",
+      "value": "05:52",
+      "fontes": [
+        "GPIAA"
+      ],
+      "nota": "GPIAA p.24"
+    },
+    {
+      "id": "F51",
+      "fact": "Number of findings",
+      "value": "12 findings on causes/contributing factors; 12 safety recommendations",
+      "fontes": [
+        "FAA-LL",
+        "SKYBRARY"
+      ],
+      "nota": ""
+    },
+    {
+      "id": "F52",
+      "fact": "Report completed/published",
+      "value": "completed 17 Sep 2004, published 18 Oct 2004 (report no. 22/ACCID/2001)",
+      "fontes": [
+        "SKYBRARY",
+        "TRANSAT",
+        "GPIAA"
+      ],
+      "nota": ""
+    },
+    {
+      "id": "F53",
+      "fact": "Transport Canada fine to Air Transat",
+      "value": "C$250,000",
+      "fontes": [
+        "AIN",
+        "WIKI"
+      ],
+      "nota": "Only AIN opened; date unclear; CBC 06/09/2001 not opened; pending 2nd source"
+    },
+    {
+      "id": "F54",
+      "fact": "Airbus/regulatory changes",
+      "value": "fuel-leak procedure ADs (DGAC F-2002-548, FAA AD 2006-02-01); checklist prohibits crossflow with suspected leak",
+      "fontes": [
+        "WIKI",
+        "CODE7700",
+        "FAA-LL"
+      ],
+      "nota": "ADs not opened; pending"
+    }
+  ],
+  "notes": "All claims were checked against the complete GPIAA final report (22/ACCID/2001, 103 pages); the FAA, Flight Safety Foundation and other summaries are listed as supporting sources. Where sources disagree we use the official report: second engine flameout about 65 nm from Lajes (other sources say 78 or 85), 67.5 flight hours since the engine change (one source says about 60), and a trim-tank delay of the imbalance message of about 15 minutes (one summary says 25). The report itself gives the first touchdown as 1,030 ft (p.8) and 1,050 ft (p.11), so we say about 1,000 ft. The exact wording of the FUEL IMBALANCE checklist caution appears in the report only as a figure, so we paraphrase it. 'About a ton every five minutes' is our arithmetic from the maximum leak rate of about 13 tonnes per hour. The report records time pressure and concern about the missing service bulletin, but no mechanic objecting to the aircraft's release; the screwdriver marks on the tubes are a hypothesis, not a confirmed fact.",
+  "editor_review": {
+    "by": "Shi",
+    "date": "2026-11-23",
+    "hash": "31000115fe96"
+  },
+  "slug": "ep01-air-transat-236"
+}
